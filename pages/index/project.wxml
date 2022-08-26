@@ -1,0 +1,10 @@
+<view>
+  <ui-sys >
+    <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
+      <ui-title title="项目名称" isIcon/>
+      <view>基于Spring Boot的英语单词学习系统</view>
+    </view>
+  </ui-sys>
+ 
+  111
+</view>

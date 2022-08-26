@@ -1,0 +1,77 @@
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="flex justify-center">
+      <image class="cu-avatar xl round" src="../../images/avator.jpg"></image>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text class="text-bold">陈其振</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>期望职位：</text>
+      <text class="text-shadow text-orange">Java实习生</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>男</text>
+      <text class="margin-left-sm">23岁</text>
+      <!-- <text class="margin-left-sm">8年工作经验</text> -->
+    </view>
+    <view class="flex justify-around margin-top-sm">
+      <view bindtap="showQrcode">
+        <text class="cuIcon-weixin text-xl text-blue"></text>
+        <text class="margin-left-xs">添加微信</text>
+      </view>
+      <view bindtap="phoneCall">
+        <text class="cuIcon-phone text-xl text-blue"></text>
+        <text class="margin-left-xs">拨打电话</text>
+      </view>
+      <view bindtap="saveContact">
+        <text class="cuIcon-addressbook text-xl text-blue"></text>
+        <text class="margin-left-xs">保存通讯录</text>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 教育经历 -->
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-edu text-xl text-blue text-center"></view>
+    <view class="edu margin-top text-center text-bold"></view>
+    <view class="margin-top">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left-sm">2018.9-2022.7</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-home"></text>
+      <text class="margin-left-sm">全日制本科/齐鲁理工学院</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-attentionfavor"></text>
+      <text class="margin-left-sm">计算机科学与技术</text>
+    </view>
+  </view>
+
+
+    <!-- 工作经历 -->
+    <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-work text-xl text-blue text-center"></view>
+    <view class="work margin-top text-center text-bold"></view>
+    <view class="margin-top">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left-sm">暂无</text>
+    </view>
+  </view>
+
+  <!-- 自我评价 -->
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-appreciatefill text-xl text-blue text-center"></view>
+    <view class="evaluate margin-top text-center text-bold"></view>
+    <view class="margin-top evaluate-cont">
+      <text>1. 稳重，踏实，兴趣广泛，对计算机非常感兴趣;</text>
+      <text>2. 责任心强，适应能力强，意志坚毅不拔，执行力强，善于沟通;</text>
+      <text>3. 有问题不逃避，愿意虚心请教，肯学习，绝对不会逃避责任;</text>
+      <text>4.并有很强的团队合作精神与合作能力、注重工作效率、时间观念强，有上进心，知错改错，工作积极进取，态度认真。
+      </text>
+    </view>
+
+  </view>
+
+</view>

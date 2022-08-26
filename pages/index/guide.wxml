@@ -1,0 +1,15 @@
+<ui-sys bg="bg-none">
+
+    <view 
+      class="name"
+      wx:for="{{projectlist}}" 
+      wx:for-item="item" 
+      wx:for-index="index"
+      wx:key="id">
+
+        <view class="radius guideblock {{item.bgcolor}} shadow-lg"  bindtap="forward" data-operation="{{item.id}}">
+          <view class="projectname">{{item.name}}</view>
+        </view>
+    </view>
+
+</ui-sys>

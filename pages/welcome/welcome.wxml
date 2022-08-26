@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="bg">
+    <text class="common title">个人简历</text>
+  </view>
+  <view class="mountain"></view>
+  <view id="bear"></view>
+</view>
