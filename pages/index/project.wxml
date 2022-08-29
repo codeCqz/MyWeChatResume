@@ -1,10 +1,20 @@
 <view>
   <ui-sys >
     <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
-      <ui-title title="项目名称" isIcon/>
-      <view>基于Spring Boot的英语单词学习系统</view>
+      <ui-title title="项目名称" titleColor="text-blue" tpl="center-column" hasDot/>
+      <view class="padding-xl bg-white">
+          <text class="margin-left-sm text-18">基于Sring Boot的英语单词学习系统</text>
+      </view>
+    </view>
+
+
+    <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
+      <ui-title title="具体功能" titleColor="text-blue" tpl="center-column" hasDot/>
+      <view class="padding-xl bg-white">
+          <text class="margin-left-sm text-18">1、实现了...</text>
+      </view>
     </view>
   </ui-sys>
- 
-  111
+
+
 </view>

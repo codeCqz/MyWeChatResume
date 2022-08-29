@@ -7,7 +7,7 @@
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
-    animation: move 2s linear 0s;
+    // animation: move 2s linear 0s;
     .projectname {
       text-align: center;
       line-height: 100px;
@@ -16,16 +16,16 @@
   }
 
 
-@keyframes move {
-  0% {
-      margin-top: 100px;
-      opacity: 0.1;
-    }
-    50% {
-      opacity: 0.2;
-    }
-    100% {
-      margin-top: 20px;
-      opacity: 0.6;
-    }
-}
+// @keyframes move {
+//   0% {
+//       margin-top: 100px;
+//       opacity: 0.1;
+//     }
+//     50% {
+//       opacity: 0.2;
+//     }
+//     100% {
+//       margin-top: 20px;
+//       opacity: 0.6;
+//     }
+// }
