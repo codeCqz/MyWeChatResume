@@ -65,6 +65,9 @@
       <text class="margin-left-sm">了解远程链接Linux和基本命令的使用</text>
     </view>
     <view class="margin-top">
+      <text class="margin-left-sm">熟悉Git版本控制工具</text>
+    </view>
+    <view class="margin-top">
       <text class="margin-left-sm">了解科学上网工具的使用</text>
     </view>
     
