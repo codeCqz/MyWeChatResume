@@ -14,7 +14,7 @@ Page({
         tools:['VS Code','IDEA','Navicat'],
         function:['1、实现了查询单词模块','2、实现了英语翻译模块','3、实现了单词学习模块',
         '4、实现了生词表模块','5、实现了学习方式选择模块'],
-        images:['https://s1.ax1x.com/2022/08/30/vhHE9K.png',
+        images:['https://s1.ax1x.com/2022/09/02/vIP1Xj.png',
           'https://s1.ax1x.com/2022/08/30/v4FVoV.png',
           'https://s1.ax1x.com/2022/08/30/v4Fuz4.png',
           'https://s1.ax1x.com/2022/08/30/v4F8dx.png',
