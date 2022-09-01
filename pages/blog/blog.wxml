@@ -1,3 +1,5 @@
+<ui-sys>
+<!-- <view class="mx-3 padding-x radius shadow-warp bg-white margin-top"> -->
 <scroll-view scroll-y class="scrollPage">
   <!-- <view class="UCenter-bg">
     <image src="/images/logo.png" class="png" mode="widthFix"></image>
@@ -26,7 +28,7 @@
     </view>
   </view> -->
 
-  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl radius">
     <view class="cu-item arrow">
       <view class="content" bindtap="CopyLink" data-link="https://github.com/codeCqz">
         <text class="cuIcon-github text-grey"></text>
@@ -34,9 +36,21 @@
       </view>
     </view>
     <view class="cu-item arrow">
+      <view class="content" bindtap="CopyLink" data-link="https://gitee.com/onlineshow">
+        <text class="cuIcon-gitee text-grey"></text>
+        <text class="text-grey">Gitee</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
       <view class="content" bindtap="CopyLink" data-link="https://blog.csdn.net/qq_33317597">
-        <text class="cuIcon-likefill text-red"></text>
+        <text class="cuIcon-csdn text-red"></text>
         <text class="text-grey">CSDN</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" bindtap="CopyLink" data-link="https://onlineshow.gitee.io/my-blog/">
+        <text class="cuIcon-blog text-red"></text>
+        <text class="text-grey">个人Blog</text>
       </view>
     </view>
     <!-- <view class="cu-item arrow">
@@ -44,14 +58,14 @@
         <text class="cuIcon-formfill text-orange"></text>
         <text class="text-grey">文章精选</text>
       </navigator>
-    </view>
+    </view>-->
     <view class="cu-item arrow">
       <view class="content" bindtap="showQrcode">
         <text class="cuIcon-weixin text-green"></text>
         <text class="text-grey">关注公众号</text>
       </view>
-    </view> -->
+    </view> 
   </view>
-
-  <view class="cu-tabbar-height"></view>
 </scroll-view>
+<!-- </view> -->
+ </ui-sys> 

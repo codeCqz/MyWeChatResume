@@ -6,12 +6,14 @@
 
 .edu,
 .work,
+.skill,
 .evaluate {
   height: 1px;
   border-top: 1px solid #ddd;
 }
 .edu::before,
 .work::before ,
+.skill::before,
 .evaluate::before {
   position: relative;
   top: -25rpx;
@@ -20,6 +22,10 @@
   background: #fff;
   padding: 0 20rpx;
 }
+.skill::before {
+  content: '职业技能';
+}
+
 .edu::before {
   content: '教育经历';
 }

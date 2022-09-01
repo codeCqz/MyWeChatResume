@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "ui-sys": "mp-cu/colorUI/components/ui-sys/ui-sys",
-    "ui-title": "mp-cu/colorUI/components/ui-title/ui-title"
+    "ui-title": "mp-cu/colorUI/components/ui-title/ui-title",
+    "ui-img": "mp-cu/colorUI/components/ui-img/ui-img"
   },
 
   "pages":[

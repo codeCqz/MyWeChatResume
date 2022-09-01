@@ -18,8 +18,8 @@ Page({
   // 添加个人微信
   showQrcode: function() {
     wx.previewImage({
-      current: 'https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEiboiaOY2EnpjVFTGp7ia5JOux88eu1sLiciaz73WcZYEQIClqpcd2OQp9jbNW4NDuTbEuhZOToH8dtZHBw/0?wx_fmt=jpeg', // 当前显示图片的http链接
-      urls: ['https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEiboiaOY2EnpjVFTGp7ia5JOux88eu1sLiciaz73WcZYEQIClqpcd2OQp9jbNW4NDuTbEuhZOToH8dtZHBw/0?wx_fmt=jpeg'] // 需要预览的图片http链接列表
+      current: 'https://s1.ax1x.com/2022/09/01/v52KDx.jpg', // 当前显示图片的http链接
+      urls: ['https://s1.ax1x.com/2022/09/01/v52KDx.jpg'] // 需要预览的图片http链接列表
     })
   },
 

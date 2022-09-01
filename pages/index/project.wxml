@@ -3,18 +3,64 @@
     <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
       <ui-title title="项目名称" titleColor="text-blue" tpl="center-column" hasDot/>
       <view class="padding-xl bg-white">
-          <text class="margin-left-sm text-18">基于Sring Boot的英语单词学习系统</text>
+          <text class="margin-left-sm text-18">{{projectlist[id].name}}</text>
       </view>
     </view>
+
 
 
     <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
-      <ui-title title="具体功能" titleColor="text-blue" tpl="center-column" hasDot/>
-      <view class="padding-xl bg-white">
-          <text class="margin-left-sm text-18">1、实现了...</text>
+      <ui-title title="开发环境" titleColor="text-blue" tpl="center-column" hasDot/>
+      <view class="padding-xl bg-white" >
+          <view class="margin-left-sm text-18 margin-top-sm"
+            wx:for="{{projectlist[id].environment}}" 
+            wx:for-item="item" 
+            wx:for-index="index"
+            wx:key="id"
+          >
+            {{item}}
+          </view>
       </view>
     </view>
+
+    <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
+      <ui-title title="开发工具" titleColor="text-blue" tpl="center-column" hasDot/>
+      <view class="padding-xl bg-white" >
+          <view class="margin-left-sm text-18" wx:for="{{projectlist[id].tools}}" 
+            wx:for-item="item" 
+            wx:for-index="index"
+            wx:key="id">
+            {{item}}
+          </view>
+      </view>
+    </view>
+
+    <view class="mx-3 padding-x radius shadow-warp bg-white margin-top">
+      <ui-title title="具体功能" titleColor="text-blue" tpl="center-column" hasDot/>
+      <view class="padding-xl bg-white" >
+          <view class="margin-left-sm text-18" 
+            wx:for="{{projectlist[id].function}}" 
+            wx:for-item="item" 
+            wx:for-index="index"
+            wx:key="id">
+            {{item}}
+          </view>
+      </view>
+    </view>
+
+    <view class="mx-3 padding-x radius shadow-warp bg-white margin-top" 
+      wx:for="{{projectlist[id].images}}" 
+      wx:for-item="item" 
+      wx:for-index="index"
+      wx:key="id">
+        <ui-img preview ui="radius border" 
+          src="{{item}}"  
+          current="0"
+          local="false"
+          height="200px"
+        />
+    </view>
+
+
   </ui-sys>
-
-
 </view>

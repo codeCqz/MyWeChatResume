@@ -120,7 +120,7 @@ Page({
   showQrcode: function() {
     wx.previewImage({
       current: '', // 当前显示图片的http链接
-      urls: ['https://mmbiz.qpic.cn/mmbiz/GxbBAxrsEibqxwQYz5XomXibQf46Ftj3Nia3dqUjk9tGGoDMYqicQp8nC9vCwSHqOfujSrtgDUvibN5iaHGxmib6e4pCg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'] // 需要预览的图片http链接列表
+      urls: ['https://s1.ax1x.com/2022/09/01/v5RyTK.jpg'] // 需要预览的图片http链接列表
     })
   }
 

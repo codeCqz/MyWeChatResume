@@ -2,6 +2,8 @@
 @import '/utils/icon.wxss';
 @import '/utils/main.wxss';
 @import './utils/icon2.wxss';
+@import './utils/icon3.wxss';
+@import './utils/icon4.wxss';
 @import './mp-cu/colorUI/scss/ui';
 
 

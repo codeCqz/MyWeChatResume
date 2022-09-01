@@ -10,7 +10,6 @@ Page({
     // canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onLoad: function (options) {
-    var id = options.id;
-    console.log(id)
+    
   },
 })
