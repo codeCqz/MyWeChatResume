@@ -18,8 +18,8 @@ Page({
   // 添加个人微信
   showQrcode: function() {
     wx.previewImage({
-      current: 'https://s1.ax1x.com/2022/09/01/v52KDx.jpg', // 当前显示图片的http链接
-      urls: ['https://s1.ax1x.com/2022/09/01/v52KDx.jpg'] // 需要预览的图片http链接列表
+      current: 'https://s2.loli.net/2022/09/02/xu5Xs9IJq6zWFTv.jpg', // 当前显示图片的http链接
+      urls: ['https://s2.loli.net/2022/09/02/xu5Xs9IJq6zWFTv.jpg'] // 需要预览的图片http链接列表
     })
   },
 
