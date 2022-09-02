@@ -120,7 +120,7 @@ Page({
   showQrcode: function() {
     wx.previewImage({
       current: '', // 当前显示图片的http链接
-      urls: ['https://s1.ax1x.com/2022/09/01/v5RyTK.jpg'] // 需要预览的图片http链接列表
+      urls: ['https://s2.loli.net/2022/09/02/D4lrF1AWszJLYtk.jpg'] // 需要预览的图片http链接列表
     })
   }
 
